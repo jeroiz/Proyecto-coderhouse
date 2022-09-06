@@ -27,50 +27,16 @@ html{
 
 /* comienza el nav */
 
-#classNav {
-    justify-content: space-between;
-    align-items: center;
-    background-color:rgba(90, 4, 160, 0.7) 
+.bg-pixis{
+    background-color: rgba(90, 4, 160, 0.7);
 }
 
-.imgIconPixis{
-        width: 7rem;
-        height: 7rem;
-    }
-
-.buscador{
-    border-radius: 0.7rem;
-    background-color: white;
-    margin-left: 35rem;
-    width: 30%;
-    height: 3.3rem;
-
+nav img{
+    width: 5rem;
 }
 
-nav ul{
-    margin-right: 2rem;
-    display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   transition: all 1.5s;
-
-}
-
-nav ul li{
-    margin: 2.5rem 2rem 2rem 2rem   
-}
-
-nav ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration:none;
-    font-size: 2vh; 
-    font-weight: bold;
-}
-
-nav ul li a:hover{
-    color: rgb(255, 255, 255);
-    transition: all 0.35s;
-
+.nav-item{
+    font-size: 2rem
 }
 
 /* termina el nav */
