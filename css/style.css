@@ -39,6 +39,11 @@ nav img{
     font-size: 2rem
 }
 
+.form-control{
+    height: 3rem;
+    width: 20rem;
+}
+
 /* termina el nav */
 /* header */
 
@@ -77,6 +82,7 @@ h1{
     border: 0.1rem solid rgb(189, 189, 189);
     background-color: white;
     margin: 2rem;
+    border-radius: 1rem;
 }
 
 .cajaProducto:hover{
@@ -124,6 +130,15 @@ a div p{
     justify-content: center;
 }
 
+footer div h2{
+    font-size: 1.6rem;
+}
+
+footer div h3{
+    font-size: 1rem;
+
+}
+
 .footer{
     padding: 1rem;
     background-color:rgba(90, 4, 160, 0.7)
@@ -144,14 +159,15 @@ a div p{
 
 .listaProductos{
     background-color: rgb(243, 243, 243);
-    padding: 2rem;
-    line-height: 4rem;
+    padding: 1rem;
+    line-height: 6rem;
 }
 
 section div ul li:hover{
     color: rgb(90, 4, 160);
+    cursor: pointer;
 }
-
+ 
 
 .divFiltro{
     background-color: rgb(243, 243, 243);
@@ -169,7 +185,7 @@ section div ul li:hover{
     color: white;
     border-radius: 0.8rem;
     background-color: rgba(90, 4, 160, 0.7);
-    width: 12rem;
+    width: 13rem;
     height: 4rem;
 
 }
@@ -195,11 +211,10 @@ section div ul li:hover{
 
 .cajaMapa{
     margin-bottom: 1rem;
-    border: solid rgb(173, 173, 173);
 }
 
 .iframe{
-    width: 40rem;
+    width: 30rem;
     height: 30rem;
 }
 
@@ -214,7 +229,7 @@ section div ul li:hover{
 
 .inputClass{
     width: 30rem;
-    height: 3rem;
+    height: 3.5rem;
     margin: 1rem;
 }
 

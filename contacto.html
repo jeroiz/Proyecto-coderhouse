@@ -6,38 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="hardware, computadoras, procesadores, placas de video">
     <title>Pixis Informática Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bodyBg">
-    <nav id="classNav" class="container">
-        <a href="index.html">
-            <img src="img/logo.png" alt="logo pixis informatica" class="imgIconPixis">
-        </a> 
-        <input type="text" class="buscador textCenter">
-        <ul id="ulNav">
-            <li>
-                <a href="productos.html">PRODUCTOS</a>
-            </li>
-            <li>
-                <a href="carrito.html">CARRITO</a>
-            </li>
-            <li>
-                <a href="contacto.html">CONTACTO</a>
-            </li>
-            <li>
-                <a href="sobreNosotros.html">NOSOTROS</a>
-            </li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-pixis">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/logo.png" alt="Logo pixis informática" class="imgLogo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse botonera-nav" id="navbarSupportedContent">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Busca tu producto..." aria-label="Search">
+              </form>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+              </li>
+
+              </li>
+              <li class="nav-item mx-2 carrito">
+                <a class="nav-link active" href="#"><img src="./img/png-transparent-computer-icons-shopping-cart-encapsulated-postscript-shopping-cart-angle-black-shopping (1).png" alt="Carrito" class="img-carrito"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <header>
-        <img src="img/fotoheader3.jpg" alt="oferta"  class="imgHeader">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/fotoheader.jpg" class="d-block w-100" alt="Oferta">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/fotoheader2.jpg" class="d-block w-100" alt="Oferta">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/fotoheader3.jpg" class="d-block w-100" alt="Oferta">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/fotoheader4.jpg" class="d-block w-100" alt="Oferta">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
     </header>
     <main>
         <div class="contactoDiv">
         <h1 class="textCenter">Comunicate con nosotros</h1>
         </div>
-        <section class="contactoContainer">
+         <section class="contactoContainer">
             <div class="cajaContacto">
                 <form class="container formContacto" action="envio.php">
                     <input class="inputClass" type="text" id="nombre" placeholder="Nombre">
@@ -54,10 +89,13 @@
                 </div>
                 <p class="textCenter ubi">Jujuy 412, Santiago Del estero, 4200</p>
             </div>
-        </section>
+        </section> 
     </main>
-    <footer class="footer textCenter">
-        <h2>Seguinos en nuestras redes</h2>
+    <footer class="footer">
+        <div class="footerDiv container">
+            <h2 class="h2-Footer">Seguinos en nuestras redes</h2>
+        </div>
+        <div class="footerRedes container">
         <a href="https://www.instagram.com/pixisinformatica/" target="_blank">
             <img src="img/instagram.png" alt="Seguinos en instagram" class="imgFooter">
         </a>
@@ -67,7 +105,11 @@
         <a href="https://www.twitter.com/" target="_blank" class="imgFooter">     
             <img src="img/twitter.png" alt="Seguinos en twitter">
         </a>
-        <h3>Copyright - todos los derechos reservados</h3>
+        </div>
+        <div class="footerDiv container">
+            <h3>Copyright - todos los derechos reservados</h3>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
