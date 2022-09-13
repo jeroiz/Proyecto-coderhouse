@@ -193,15 +193,14 @@ section div ul li:hover{
 
 /* CONTACTO */
 .contactoContainer{
-    padding: 4rem;
+    margin-right: 3rem;
+    padding: 5rem;
     display: flex;
     justify-content: center;
 
 }
 
-.cajaContacto{
-    padding: 2rem;
-}
+
 
 .contactoDiv{
     background-color: rgb(252, 252, 252);
@@ -240,7 +239,10 @@ section div ul li:hover{
     border-radius: 0.8rem;
     height: 4rem;
 }
-
+ 
+.cajaUbicacion{
+    justify-content: center;
+}
 /* termina contacto */
 
 /* comienza carrito */
@@ -420,6 +422,18 @@ figure{
         grid-template-columns: auto;
         justify-content: space-around;
         gap: 2rem;}
+
+
+
+@media (max-width: 680px){
+    .contactoContainer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .cajaContacto{
+        margin-left: 6rem;
+     }
+ }
 }
 
 @media (max-width: 513px)
@@ -433,13 +447,20 @@ figure{
     .buscador{
         margin-left: 18px;
     }
+    .cajaContacto{
+        margin-left: 1rem;
+     }
 }
 
 @media (max-width: 533px){
     .listaProductos{
         display: none;
     }
+    .cajaContacto{
+        margin-left: 2rem;
+     }
 }
+
 
 @media (max-width: 381px){
     .cajaProducto{
