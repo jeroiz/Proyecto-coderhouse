@@ -1,0 +1,154 @@
+.productContainer{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.cajaProducto{
+    box-shadow: 0px 0px 5px 0.5px black;
+    border-radius: 0.1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 30rem;
+    height: auto;
+    border: 0.1rem solid rgb(189, 189, 189);
+    background-color: white;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.cajaProducto:hover{
+    transform: scale(1.01);
+    box-shadow: 10px 10px 20px black;
+    transition: 0.3s;
+}
+
+.cajaImg{
+    height: 30rem;
+    width: auto;
+}
+
+.cajaImg img{
+    object-fit: cover;
+    width: 100%;
+    height: auto
+}
+.cajaInfoProducto{
+    margin: 1rem;
+}
+
+a div p{
+    font-size: medium;
+}
+
+.botonCarrito{
+    color: white;
+    border-radius: 0.8rem;
+    background-color: rgba(90, 4, 160, 0.7);
+    width: 70%;
+    height: 4rem;
+}
+.listaProductos{
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    line-height: 6rem;
+}
+
+section div ul li:hover{
+    color: rgb(90, 4, 160);
+    cursor: pointer;
+}
+ 
+.divFiltro{
+    background-color: rgb(243, 243, 243);
+    border-bottom: solid rgb(173, 173, 173);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonFiltro{
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+    color: white;
+    border-radius: 0.8rem;
+    background-color: rgba(90, 4, 160, 0.7);
+    width: 13rem;
+    height: 4rem;
+}
+
+.contenedorProducto{
+    background-color:rgb(243, 243, 243) ;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 5rem;
+}
+
+.cajaImgProd{
+    box-shadow: 0px 0px 3px 1px;
+    border: solid rgb(236, 235, 235)
+}
+
+main div div p{
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.precio{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#tituloProducto{
+    font-size: 2.5rem;
+    padding-left: 1rem;
+}
+
+.botonCarritoP{
+    font-size: 1.7rem;
+    margin: 2rem;
+    color: white;
+    border-radius: 0.8rem;
+    background-color: rgba(90, 4, 160, 0.7);
+    width: 70%;
+    height: 4rem;
+}
+
+.specs{
+    padding: 2rem;
+}
+
+.cajaCaracteristicas{
+    margin-left: 10rem;
+    padding: 1rem;
+}
+
+.cajaCaracteristicas p{
+    font-size: 3rem;
+}
+
+.cajaRendimiento{
+
+    margin: 1rem;
+    margin-left: 5rem;
+}
+
+.cajaRendimiento p{
+    font-size: 3rem;
+}
+
+.cajaRendimiento ul li{
+    font-size: 1.7rem;
+}
+
+.cajaCaracteristicas ul li{
+    font-size: 1.7rem;
+}
+.gridContainerOfertas{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    gap: 5rem;
+}
