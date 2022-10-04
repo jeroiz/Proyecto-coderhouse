@@ -1,1 +1,5 @@
 # Proyecto-coderhouse
+Bueno, para realizar esta pagina me inspiré en  el tipico modelo de e-commerce de computadoras, tenía una idea fija desde el principio la cual pude concretar muy temprano, pero se me fue complicando a medida que aprendiamos cosas que exigian en las entregas, las cuales yo no necesitaba utilizar. De igual manera creo que se puede mejorar mucho la pagina, pero todo es practica.
+En el index hay una sección de ofertasn, en las cuales faltan muchas claramente y tengo pensado en hacer que sean como un carrusel.
+Tambien me gustaria agregar funcionalidad a la pestaña productos, haciendo que funcionen los filtros y otros botones, en la pestaña de carrito no hay nada, ya que consulte a tutores y me dijeron que no habia drama al no poner nada ahi, ya que un carrito lo aprenderemos a hacer mas adelante en el curso. 
+Creo que no tengo nada mas que agregar, saludos.
