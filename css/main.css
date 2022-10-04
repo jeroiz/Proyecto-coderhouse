@@ -4,6 +4,8 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+
+
 .container {
   display: flex;
 }
@@ -250,4 +252,89 @@ footer div h3 {
 
 .h2Footer {
   padding: 10px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.imgError{
+  width: 100%;
+}
+
+@media (max-width: 1541px){
+  .buscador{
+      margin-left: 20px;
+  }
+}
+
+@media (max-width: 880px)
+{
+  #classNav{
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 725px)
+{
+  .gridContainerOfertas{
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: space-around;
+      gap: 2rem;}
+
+      @media (max-width: 1199px){
+        div ul li h2{
+          font-size: 1.5rem;
+        }
+        
+      }
+      
+      @media (max-width: 680px){
+        .contactoContainer{
+      flex-direction: column;
+      text-align: center;
+  }
+  .cajaContacto{
+      margin-left: 6rem;
+   }
+}
+}
+
+@media (max-width: 513px)
+{
+  #ulNav{
+      flex-wrap: wrap;
+  }
+  .cajaProducto{
+      width: 30rem;
+  }
+  .buscador{
+      margin-left: 18px;
+  }
+  .cajaContacto{
+      margin-left: 1rem;
+   }
+}
+
+@media (max-width: 533px){
+  .listaProductos{
+      display: none;
+  }
+  .cajaContacto{
+      margin-left: 2rem;
+   }
+}
+
+
+@media (max-width: 381px){
+  .cajaProducto{
+      margin: 0.5rem;
+  }
+  .cajaContacto{
+      padding-right: 10rem;
+  }
+  
+  .h1Prod{
+      font-size: 2rem;
+
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
